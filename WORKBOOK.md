@@ -661,15 +661,15 @@ Type the following **exactly**:
     <h1>Hello, world</h1>
   </body>
 </html>
-
+```
 
 ---
 
-## Step 4 — Reading HTML as Structure, Not Code
+## Step 4 — Reading HTML as Structure, Not Code (Conceptual)
 
 **Purpose**
 
-- Learn how to read HTML calmly and safely
+- Learn how to *look at* HTML without fear
 - Understand HTML as structure and meaning, not “programming”
 - Build confidence by recognizing familiar patterns
 
@@ -677,64 +677,151 @@ Type the following **exactly**:
 
 By the end of this step, you will be able to:
 
-- Look at an HTML file without feeling overwhelmed
-- Identify the main sections of a basic HTML document
-- Explain, at a high level, what each part is responsible for
+- Look at a simple HTML file without feeling overwhelmed
+- Describe, at a high level, what the main parts of the file represent
+- Understand that HTML is meant to be read by humans as well as browsers
 
-No new files will be created in this step.  
-We will work only with the file you already made.
+No changes will be made to your files in this part of the step.  
+We are focusing on **understanding**, not action.
 
 ---
 
 ### A Reassuring Reminder
 
-You are not here to memorize HTML.
+You are not expected to memorize HTML.
 
-You are here to **recognize patterns**.
+You are not expected to understand everything at once.
 
 HTML is designed to be:
 - Predictable
 - Repetitive
-- Readable by humans
+- Readable
 
-If something looks unfamiliar, that does not mean you are behind.
+If parts of an HTML file feel unfamiliar, that does **not** mean you are behind.  
+It simply means you are encountering a new pattern for the first time.
 
 ---
 
-### HTML Is Built from Elements
+### HTML Is Made of Elements
 
-HTML is made up of **elements**.
+HTML is built from **elements**.
 
 Most elements follow a simple pattern:
 
 ```html
 <tagname>content</tagname>
+```
+
+This pattern means:
+- Something begins
+- Something exists inside
+- Something ends
+
+You do not need to know all possible elements.  
+You only need to recognize that this **opening → content → closing** shape is intentional.
+
+---
+
+### Structure, Not Instructions
+
+HTML does not tell the browser *how* to do things step by step.
+
+Instead, it describes *what things are*.
+
+For example:
+- “This is a heading”
+- “This is a paragraph”
+- “This is the main content of the page”
+
+You are labeling meaning, not controlling behavior.
+
+This is why HTML is a safe place to start.
+
+---
+
+### The Major Sections of an HTML Page
+
+A basic HTML file is divided into clear sections.
+
+At a high level:
+- One part provides information *about* the page
+- One part contains the content the user sees
+
+You do not need to remember names yet.  
+What matters is recognizing that:
+- The file is organized
+- Each section has a purpose
+- Nothing is random
+
+---
+
+### Reading Calmly, Top to Bottom
+
+Browsers read HTML files from top to bottom.
+
+Humans can do the same.
+
+When you look at an HTML file, you are allowed to:
+- Go slowly
+- Skip unfamiliar details
+- Focus on what you recognize
+
+Understanding grows through repeated exposure, not pressure.
+
+---
+
+### Checking Your Understanding
+
+Without changing anything, try to answer in your own words:
+
+1. What is an HTML element?
+2. Is HTML giving instructions, or describing structure?
+3. Why might HTML be easier to read than it first appears?
+
+There are no perfect answers.  
+This step is about orientation, not precision.
+
+---
+
+### Step Boundary
+
+You now have a mental model for **how to look at HTML safely**.
+
+In the next part of this step, you will:
+- Open your existing HTML file
+- Make small, safe text changes
+- Observe what stays the same and what changes
+
+Nothing new will be added.  
+Nothing can break.
+
+Do not proceed until you are ready.
+
+---
 
 ## Step 4 — Reading HTML as Structure, Not Code (Practical)
 
 **Purpose**
 
 - Practice reading HTML without fear
-- Make small, safe text changes
-- Confirm that structure stays intact when content changes
+- Make small, reversible text changes
+- Confirm that structure remains stable when content changes
 
 **Outcome**
 
 By the end of this step, you will be able to:
 
 - Change text in an HTML file confidently
-- Recognize which parts of the file you are changing
+- Identify *which* part of the file you are changing
 - Trust that small changes are safe and reversible
 
-We will not add new elements.
-We will not reorganize the file.
-We will work only with what already exists.
+You will work only with the file you already created.
 
 ---
 
 ### Opening Your Existing File
 
-Open `index.html` in Visual Studio Code.
+Open your `index.html` file in Visual Studio Code.
 
 You should see something similar to this:
 
@@ -748,6 +835,105 @@ You should see something similar to this:
     <h1>This is my first HTML page</h1>
   </body>
 </html>
+```
+
+If your text is slightly different, that is fine.
+
+What matters is the **shape**, not exact wording.
+
+---
+
+### Identifying What You’re Looking At
+
+Without changing anything yet, notice:
+
+- There is a clear beginning and end
+- Some parts are nested inside others
+- The text you recognize is inside tags
+
+You do not need to name these parts.  
+Just notice that the structure is consistent and calm.
+
+---
+
+### Making a Safe Text Change
+
+We are going to change **only visible text**.
+
+Do **not** add new lines.  
+Do **not** remove tags.
+
+Change this line:
+
+```html
+<h1>This is my first HTML page</h1>
+```
+
+To something personal, for example:
+
+```html
+<h1>Hello from my first website</h1>
+```
+
+Save the file.
+
+---
+
+### Observing the Result
+
+Open `index.html` in your browser again (or refresh the page if it is already open).
+
+You should see:
+- The new text you wrote
+- The page still loads normally
+- Nothing else changed
+
+This is an important moment.
+
+You just confirmed that:
+- You can change content safely
+- Structure and content are related but distinct
+- HTML responds predictably
+
+---
+
+### What Stayed the Same
+
+Even though you changed text:
+- The page still exists
+- The structure still works
+- The browser still understands the file
+
+This is the stability HTML gives you.
+
+---
+
+### Checking Your Understanding
+
+In your own words, try to answer:
+
+1. What part of the file did you change?
+2. What parts did you leave alone?
+3. Why was this change safe?
+
+Again, there are no perfect answers.
+
+---
+
+### Step 4 Boundary (Important)
+
+You have now:
+- Read HTML calmly
+- Changed real content
+- Seen predictable results
+
+You are building trust — in the tools and in yourself.
+
+In the **next step**, we will talk about appearance and styling **conceptually only**.
+
+Do not add new files.  
+Do not experiment ahead.  
+We are moving slowly on purpose.
 
 
 ---
