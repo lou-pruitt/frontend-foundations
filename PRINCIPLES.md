@@ -146,3 +146,24 @@ These principles are not intended to restrict collaboration.
 They exist to ensure that Frontend Foundations remains a safe, clear, and
 trustworthy starting point for people learning web development for the first
 time.
+
+
+### Single-Source Workbook During Structural Design
+
+While the curriculum structure is still being designed and validated,  
+**Frontend Foundations uses a single `WORKBOOK.md` file as the source of truth.**
+
+This is intentional.
+
+A single document:
+- Preserves narrative continuity for beginners
+- Makes pacing and pause points visible at a glance
+- Prevents accidental skipping or modular reordering
+- Keeps structural decisions easy to evaluate and revise
+
+Steps may be split into separate files only **after**:
+- The learning loop is complete
+- Step boundaries are stable
+- The curriculum is ready for external contributors or reuse
+
+Until then, structural clarity takes priority over modular convenience.

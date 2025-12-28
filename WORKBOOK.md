@@ -1077,19 +1077,127 @@ When you continue later, we will apply these ideas slowly and safely.
 
 
 ---
-
-## Step 6 — Layout and Flow
+<!--
+Step 6 is drafted conceptually but is not part of the v0.1 learning loop.
+It exists to preserve curriculum continuity for future versions.
+-->
+## Step 6 — Layout and Flow: Why Things Appear Where They Do (Conceptual Only)
 
 **Purpose**
 
-- Understand how elements are positioned
-- Learn basic layout concepts
-- Avoid common beginner layout confusion
+- Understand that web pages follow predictable layout rules
+- Learn what “flow” means in the context of a web page
+- Reduce anxiety around elements appearing in unexpected places
 
 **Outcome**
 
-- A simple, readable layout
-- Fewer “why is this over here?” moments
+By the end of this step, you will be able to:
+
+- Explain, at a high level, why elements usually appear from top to bottom
+- Describe what is meant by “normal flow”
+- Recognize that layout confusion comes from unfamiliar rules, not mistakes
+
+No files will be created in this step.  
+Nothing in your project will be changed.
+
+---
+
+### A Common Beginner Question
+
+At some point, nearly every beginner asks:
+
+> “Why is this over here?”
+
+This question is normal.
+
+It does not mean you did something wrong.  
+It means you are noticing layout for the first time.
+
+This step exists to explain **why things appear where they do** *before* you try to change anything.
+
+---
+
+### Pages Have a Default Flow
+
+When a browser displays a page, it follows a set of default rules.
+
+One of the most important rules is this:
+
+> **Elements appear in the order they are written, from top to bottom.**
+
+This is called **normal flow**.
+
+Unless you tell the browser otherwise:
+- Content stacks vertically
+- New elements appear below previous ones
+- The page behaves like a simple document
+
+Nothing is random.  
+Nothing is being “guessed.”
+
+---
+
+### Why This Feels Confusing at First
+
+Beginners often expect:
+- Precise placement
+- Side-by-side layouts
+- Visual control immediately
+
+But the browser starts with **readability**, not design.
+
+It assumes:
+- Content comes first
+- Layout comes later
+- Control is earned gradually
+
+Feeling confused here is not a failure.  
+It is a sign that you are ready to learn the rules.
+
+---
+
+### We Are Not Controlling Layout Yet
+
+In this step:
+
+- You will **not** move elements around
+- You will **not** fix spacing
+- You will **not** design a layout
+- You will **not** learn layout tools yet
+
+Those come later.
+
+Right now, the goal is simply to understand:
+- That rules exist
+- That the browser has a starting point
+- That your job is to learn those rules over time
+
+---
+
+### Checking Your Understanding
+
+In your own words, try to answer:
+
+1. What does “normal flow” mean?
+2. Why do elements usually stack from top to bottom?
+3. Why might layout feel confusing before learning the rules?
+
+There are no perfect answers.
+
+---
+
+### Step 6 Boundary (Intentional Pause)
+
+This step is about **orientation**, not control.
+
+You now know that layout follows rules — even if you don’t know them yet.
+
+Do not proceed.  
+Do not experiment.  
+Do not try to “fix” anything.
+
+When you continue later, we will learn how to work *with* these rules, calmly and deliberately.
+
 
 ---
 
