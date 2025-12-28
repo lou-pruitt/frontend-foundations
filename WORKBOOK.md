@@ -1,3 +1,25 @@
+<!--
+Copilot Context — Read Only
+
+This repository is a beginner-first, documentation-driven learning project.
+
+Constraints:
+- Content must be sequential. Do not suggest skipping steps or reordering sections.
+- Assume the reader has zero prior coding experience.
+- Favor clarity, reassurance, and explanation over completeness or efficiency.
+- Avoid frameworks, build tools, abstractions, or advanced patterns.
+- Avoid jargon unless it is introduced and explained gently.
+- Do not optimize for speed, performance, or “best practices” beyond fundamentals.
+- Treat AI as a mentor that explains concepts, not an authority or code generator.
+
+Intent:
+This workbook teaches how to learn front-end development calmly and safely.
+Any suggestion that increases cognitive load, assumes prior knowledge, or
+prioritizes output over understanding is out of scope.
+
+This comment exists to guide AI assistance only. It is not learner-facing.
+-->
+
 # Frontend Foundations — Workbook
 
 Welcome to **Frontend Foundations**.
