@@ -129,6 +129,162 @@ In the next step, we will prepare a simple environment so you can begin working 
 
 ---
 
+Before we write anything for the web, we need a place to work.
+
+In this step, we will set up a simple, calm environment where you can create files, make changes, and see results. Nothing here is complicated, and nothing here is permanent. These tools exist to support learning, not to test you.
+
+We will move slowly and explain what each thing is and why it matters.
+
+---
+
+### What We Mean by “Tools”
+
+In web development, a *tool* is simply something that helps you write and organize instructions for the computer.
+
+At this stage, you only need two things:
+
+- A place to store your project files
+- A program to edit text files safely
+
+That’s it.
+
+You are not setting up anything advanced.  
+You are not configuring a system.  
+You are just preparing a workspace.
+
+---
+
+### Your Project Folder
+
+A **project folder** is just a normal folder on your computer.
+
+It exists to:
+- Hold your files in one place
+- Keep related work together
+- Make it easier for tools to understand your project later
+
+You can think of it as a container.  
+Everything related to this project will live inside it.
+
+In the next steps, this folder will begin to contain files that describe a website. For now, it is simply an empty home waiting to be used.
+
+---
+
+### Your Code Editor
+
+A **code editor** is a program designed for editing plain text files.
+
+We will use **Visual Studio Code** (often called *VS Code*) because it is:
+- Free
+- Widely used
+- Beginner-friendly
+- Available on all major operating systems
+
+A code editor is not special because it writes code for you.  
+It is special because it helps you see and organize what you write.
+
+At this stage, you do not need to understand:
+- Menus
+- Extensions
+- Settings
+- Shortcuts
+
+You only need to be able to:
+- Open the editor
+- Open your project folder
+- Create and save files
+
+We will learn everything else gradually.
+
+---
+
+### Installing Visual Studio Code
+
+In this section, you will install a program called **Visual Studio Code**.  
+This is the editor we will use to view and edit files throughout the workbook.
+
+Take your time. Nothing here is fragile.
+
+---
+
+#### If You Are Using Windows
+
+1. Open a web browser you already use (such as Edge or Chrome).
+2. Go to the Visual Studio Code website:  
+   https://code.visualstudio.com
+3. Click the button labeled **Download for Windows**.
+4. Once the download finishes, open the installer.
+5. Follow the on-screen instructions and accept the default options.
+6. When installation completes, open **Visual Studio Code**.
+
+You should see a window open with a welcome screen.  
+If you do, installation was successful.
+
+---
+
+#### If You Are Using macOS
+
+1. Open a web browser you already use (such as Safari or Chrome).
+2. Go to the Visual Studio Code website:  
+   https://code.visualstudio.com
+3. Click the button labeled **Download for Mac**.
+4. Once the download finishes, open the downloaded file.
+5. Drag **Visual Studio Code** into your **Applications** folder.
+6. Open **Visual Studio Code** from Applications.
+
+You should see a window open with a welcome screen.  
+If you do, installation was successful.
+
+---
+
+#### If You Are Using Linux
+
+If you are using Linux, you likely already know how software is installed on your system.
+
+You may install Visual Studio Code using the method recommended by your distribution (for example, through your package manager or software center).
+
+Once installed, open Visual Studio Code and continue with the next section.
+
+---
+
+### Creating Your Project Folder
+
+Next, create a folder on your computer where this project will live.
+
+You may name this folder something simple, such as:
+
+- `frontend-foundations`
+- `web-learning`
+- or any name you prefer
+
+The location does not matter.  
+Your desktop or documents folder is fine.
+
+This folder will hold all of your files for this workbook.
+
+---
+
+### Opening Your Project Folder in Visual Studio Code
+
+1. Open **Visual Studio Code**.
+2. Look for an option that says **Open Folder**.
+3. Select the project folder you just created.
+4. Confirm your choice.
+
+You should now see the folder name appear in the editor.
+
+At this point:
+- Visual Studio Code is installed
+- Your project folder exists
+- The folder is open in the editor
+
+You are ready to continue.
+
+In the next step, we will look closely at files, folders, and how the web understands them.
+
+
+---
+
 ## Step 2 — Files, Folders, and How the Web Sees Them
 
 **Purpose**
