@@ -447,18 +447,221 @@ Nothing is expected to be committed yet.
 
 ---
 
-## Step 3 — Your First HTML Page
+## Step 3 — Your First HTML Page (Conceptual)
 
 **Purpose**
 
-- Learn what HTML does
-- Write a minimal HTML document
-- Understand page structure
+- Understand what HTML is responsible for
+- Learn what an HTML file represents conceptually
+- Build a mental model of “structure” before writing anything
 
 **Outcome**
 
-- A working HTML page
-- You can open it in a browser and see it render
+By the end of this step, you will be able to:
+
+- Explain what HTML is and what it is not
+- Describe what an HTML page does for a browser
+- Understand why structure comes before appearance or behavior
+
+No files will be created in this part of the step.  
+We are still preparing mentally.
+
+---
+
+### What HTML Is (At a High Level)
+
+HTML stands for **HyperText Markup Language**.
+
+Despite the name, you do not need to focus on:
+- “Hyper”
+- “Markup”
+- Or “Language”
+
+What matters is what HTML *does*.
+
+HTML is used to **describe the structure and meaning of a page**.
+
+It answers questions like:
+- What is a heading?
+- What is a paragraph?
+- What is a list?
+- What is a section of content?
+
+HTML does **not** decide:
+- Colors
+- Fonts
+- Layout
+- Animations
+- Interactions
+
+Those come later.
+
+---
+
+### Structure Before Appearance
+
+A helpful comparison:
+
+Think of HTML like the **outline of a document**, not its design.
+
+Before you choose:
+- Fonts
+- Colors
+- Spacing
+
+You need to know:
+- What the content is
+- How it is organized
+- What role each piece plays
+
+HTML exists to provide that structure.
+
+---
+
+### How Browsers Use HTML
+
+When a browser opens an HTML file, it:
+
+1. Reads the file from top to bottom
+2. Interprets the structure described inside
+3. Builds an internal representation of the page
+4. Displays the result on screen
+
+The browser is not looking for “code tricks.”
+
+It is looking for **meaningful structure**.
+
+---
+
+### HTML Is Declarative, Not Instructional
+
+This is an important idea.
+
+HTML does not say:
+- “Do this”
+- “Calculate that”
+- “Run this logic”
+
+Instead, HTML says:
+- “This is a heading”
+- “This is a paragraph”
+- “This is a section of content”
+
+You are *describing* what things are, not commanding the browser step by step.
+
+---
+
+### Why This Matters for Beginners
+
+Many beginners feel overwhelmed because they think:
+
+> “I have to make the computer do things.”
+
+With HTML, that is not true.
+
+You are not controlling behavior yet.
+You are labeling content so the browser can understand it.
+
+This makes HTML a safe place to start.
+
+---
+
+### Checking Your Understanding
+
+In your own words, try to answer:
+
+1. What problem does HTML solve?
+2. What kinds of decisions does HTML *not* make?
+3. Why is structure important before styling or interaction?
+
+Again, there are no perfect answers.
+The goal is orientation, not precision.
+
+---
+
+### Step 3 Boundary (Important)
+
+You now understand **what HTML is for**.
+
+In the next part of this step, we will:
+- Create your first HTML file
+- Look at its structure
+- Open it in a browser and observe what happens
+
+That practical action will come **only after you confirm**.
+
+Do not create any files yet.
+Nothing should be committed at this stage.
+
+## Step 3 — Your First HTML Page (Practical)
+
+**Purpose**
+
+- Create your first real HTML file
+- Open it in a browser
+- Confirm that changing a file changes what you see
+
+**Outcome**
+
+By the end of this step, you will have:
+
+- An HTML file named `index.html`
+- Opened that file in a browser
+- Seen text appear on the screen because of your file
+
+This is your first concrete artifact.
+We will move slowly and verify each step.
+
+---
+
+### Creating Your First File
+
+We are going to create a single file inside your project folder.
+
+The file will be called:
+
+`index.html`
+
+This name is conventional and safe.
+You do not need to understand *why* it is conventional yet.
+
+---
+
+### Step-by-Step: Create `index.html`
+
+1. Make sure your **project folder is open** in Visual Studio Code.
+2. In the file explorer (left side), look for your project folder name.
+3. Right-click inside the folder area.
+4. Choose **New File**.
+5. Name the file exactly:
+
+   `index.html`
+
+Press **Enter** to confirm.
+
+You should now see `index.html` listed in your project folder.
+
+Nothing else should change.
+
+---
+
+### Adding Minimal Content
+
+Open `index.html` by clicking on it.
+
+Type the following **exactly**:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>Hello, world</h1>
+  </body>
+</html>
+
 
 ---
 
