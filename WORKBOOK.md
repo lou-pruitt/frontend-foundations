@@ -51,6 +51,12 @@ You are encouraged to question, test, and reflect at every step.
 
 ## Step 0 — What We Are Building and Why
 
+We know that learning something new can feel uncertain, especially when it comes to technology. That’s why we created this workbook—to give you a gentle, step-by-step introduction to how websites are made and how the web works.
+
+Our goal is to help you understand the basics of building for the web, starting from the very beginning. We believe that everyone deserves a clear and welcoming path, no matter their background or experience.
+
+As you move through these pages, you’ll find that we focus on understanding, not memorization or speed. We want you to feel safe, supported, and confident as you discover how the web is built. Together, we’ll explore the basics, one step at a time, always making sure you know not just what to do, but why it matters.
+
 **Purpose**
 
 - Understand what front-end web development is
