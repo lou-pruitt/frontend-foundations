@@ -938,19 +938,143 @@ We are moving slowly on purpose.
 
 ---
 
-## Step 5 — Introducing CSS: Making Things Visible and Readable
+## Step 5 — Introducing CSS: Appearance Without Structure (Conceptual Only)
 
 **Purpose**
 
-- Understand what CSS does
-- Connect CSS to HTML
-- Apply simple visual changes
+- Understand what CSS is responsible for
+- Understand how CSS relates to HTML
+- Learn why appearance is handled separately from structure
 
 **Outcome**
 
-- Text is styled
-- Spacing and layout are improved
-- You understand separation of concerns
+By the end of this step, you will be able to:
+
+- Explain what CSS does at a high level
+- Describe how CSS and HTML work together
+- Understand why visual design comes *after* structure
+
+No files will be created in this step.  
+Nothing in your project will be changed.
+
+---
+
+### A Moment to Pause
+
+Up to this point, everything you have done has focused on **structure and meaning**.
+
+That was intentional.
+
+Before we change how anything looks, it is important to understand *why* appearance is treated as a separate concern on the web.
+
+This step exists to build that understanding — **without asking you to do anything yet**.
+
+---
+
+### What CSS Is (At a High Level)
+
+CSS stands for **Cascading Style Sheets**.
+
+You do not need to remember the full name.
+
+What matters is what CSS *does*.
+
+CSS controls how things **look**.
+
+For example, CSS can describe:
+- Text color
+- Font choices
+- Spacing between elements
+- Visual clarity and readability
+
+CSS does **not**:
+- Create content
+- Decide what something *is*
+- Change the meaning of a page
+
+Those responsibilities belong to HTML.
+
+---
+
+### Why CSS Exists Separately
+
+Imagine trying to describe:
+- What something is
+- And how it should look
+- At the same time
+- In the same place
+
+That would quickly become difficult to read and difficult to change.
+
+The web separates these concerns on purpose:
+
+- **HTML** describes structure and meaning
+- **CSS** describes appearance
+- **JavaScript** (later) describes behavior
+
+This separation makes pages:
+- Easier to understand
+- Easier to modify
+- Less fragile over time
+
+Right now, you only need to recognize that this separation exists.
+
+---
+
+### Structure Comes First
+
+CSS depends on HTML.
+
+Without structure:
+- There is nothing to style
+- Nothing to color
+- Nothing to arrange
+
+That is why we spent time building confidence with HTML *before* introducing CSS.
+
+You are not behind.  
+You are exactly where you should be.
+
+---
+
+### No Action Yet (Important)
+
+In this step:
+
+- You will **not** write CSS
+- You will **not** add new files
+- You will **not** change how your page looks
+
+That will come later.
+
+For now, your responsibility is simply to understand **what CSS is for**, and **why it exists**.
+
+---
+
+### Checking Your Understanding
+
+In your own words, try to answer:
+
+1. What problem does CSS solve?
+2. How is CSS different from HTML?
+3. Why might it be helpful to separate structure from appearance?
+
+There are no perfect answers.
+
+---
+
+### Step 5 Boundary (Hard Stop)
+
+This is an intentional pause.
+
+You now understand the *idea* of styling, without being asked to apply it yet.
+
+Do not proceed.  
+Do not experiment.  
+Do not add files.
+
+When you continue later, we will apply these ideas slowly and safely.
+
 
 ---
 
