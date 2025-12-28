@@ -51,7 +51,7 @@ You are encouraged to question, test, and reflect at every step.
 
 ## Step 0 — What We Are Building and Why
 
-We know that learning something new can feel uncertain, especially when it comes to technology. That’s why we created this workbook—to give you a gentle, step-by-step introduction to how websites are made and how the web works.
+We know that learning something new can feel uncertain, especially when it comes to technology. That’s why we created this workbook — to give you a gentle, step-by-step introduction to how websites are made and how the web works.
 
 Our goal is to help you understand the basics of building for the web, starting from the very beginning. We believe that everyone deserves a clear and welcoming path, no matter their background or experience.
 
@@ -67,6 +67,49 @@ As you move through these pages, you’ll find that we focus on understanding, n
 
 - You know what problems front-end developers solve
 - You understand what this workbook will and will not cover
+
+---
+
+### What a Website Is (at a High Level)
+
+Before we begin installing tools or creating files, it is important to clarify what we mean by a *website*.
+
+At its most basic level, a website is **a collection of files** that a computer program called a *browser* (such as Chrome or Safari) knows how to read and display.
+
+These files describe:
+- What content exists, such as text or images
+- How that content is arranged
+- How it should look
+- How it may respond to interaction
+
+When you visit a website, your browser:
+1. Receives these files
+2. Interprets the instructions inside them
+3. Displays the result on your screen
+
+Nothing more mysterious is happening.
+
+A website is not:
+- A single page
+- A single language
+- A single program running by itself
+
+Instead, it is a cooperation between:
+- Files written by people
+- Rules understood by browsers
+- Actions taken by users, such as clicking, scrolling, and typing
+
+Front-end development focuses on the part of this system that lives **inside the browser** — the part the user sees, touches, and experiences directly.
+
+As you continue through this workbook, you will learn how different kinds of files work together to form a website. For now, it is enough to remember this:
+
+> A website is a set of instructions that tells a browser what to show and how to behave.
+
+You will soon begin writing those instructions yourself — slowly, intentionally, and with full understanding of each step.
+
+In the next step, we will prepare a simple environment so you can begin working with these ideas directly.
+
+
 
 ---
 
