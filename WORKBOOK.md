@@ -289,14 +289,161 @@ In the next step, we will look closely at files, folders, and how the web unders
 
 **Purpose**
 
-- Understand files vs folders
-- Understand file extensions
-- Learn how browsers load files
+- Build a clear mental model of files and folders
+- Understand what file extensions mean
+- Learn how browsers decide what to do with a file
 
 **Outcome**
 
-- You know what an HTML file is
-- You know where files live and why naming matters
+By the end of this step, you will be able to:
+
+- Explain the difference between a file and a folder
+- Explain what a file extension is and why it matters
+- Describe, at a high level, how a browser turns files into a web page
+
+No tools are required in this step.  
+Nothing needs to be installed, created, or changed.
+
+---
+
+### A Calm Starting Point
+
+Before we write anything for the web, we need to understand **what the web is actually made of**.
+
+At a very basic level, the web is not mysterious.
+
+It is built from:
+- Files
+- Stored in folders
+- Read by programs called browsers
+
+This step exists to make that feel concrete and understandable.
+
+---
+
+### Files and Folders: What They Really Are
+
+A **folder** is a container.
+
+It exists to:
+- Hold files
+- Group related things together
+- Keep work organized
+
+A **file** is a single item stored on your computer.
+
+It may contain:
+- Text
+- Instructions
+- Data
+- Or a combination of these
+
+An important distinction:
+
+- A folder does not *do* anything by itself  
+- A file contains the actual content or instructions
+
+When we talk about a website, we are usually talking about **a folder full of files**.
+
+---
+
+### File Names and File Extensions
+
+Most files have two parts to their name:
+
+- The **name** (for humans)
+- The **extension** (for programs)
+
+Example:
+
+`index.html`
+
+- `index` → the name
+- `.html` → the extension
+
+The extension tells your computer and applications **how to interpret the file**.
+
+This matters more than how the file looks or which icon it has.
+
+---
+
+### Common File Extensions You Will See
+
+You do not need to memorize these.  
+They are listed here to build familiarity.
+
+- `.txt` — plain text
+- `.html` — web page structure
+- `.css` — visual styling rules
+- `.js` — behavior and interaction
+- `.png`, `.jpg` — images
+
+For now, the most important idea is this:
+
+> The same text, saved with a different extension, can be treated very differently.
+
+---
+
+### What a Browser Actually Does
+
+A browser is a program whose job is to:
+
+1. Open files
+2. Read the instructions inside them
+3. Display something on the screen
+
+When a browser opens:
+- a `.txt` file → it shows the text as-is
+- an `.html` file → it interprets the text as instructions for a page
+
+The browser is not guessing.
+It is following rules based on file type.
+
+---
+
+### Where Websites Exist
+
+A website can exist in two main places:
+
+1. **On your own computer** (local files)
+2. **On another computer** (a server on the internet)
+
+Right now, we care only about the first case.
+
+Working with local files means:
+- Nothing is public
+- Nothing can break the internet
+- You can experiment safely
+
+This is intentional.
+
+---
+
+### Checking Your Understanding
+
+Without using tools, try to answer these in your own words:
+
+1. What is the difference between a file and a folder?
+2. Why does a file extension matter?
+3. Why does a browser treat `.html` differently from `.txt`?
+
+There are no perfect answers.
+This step is about forming a mental model, not proving anything.
+
+---
+
+### Step Boundary
+
+You now have the background needed to create your first real web file.
+
+In the next step, we will:
+- Create an actual HTML file
+- Open it in a browser
+- Confirm that changing a file changes what you see
+
+Do not proceed until you are ready.
+Nothing is expected to be committed yet.
+
 
 ---
 
