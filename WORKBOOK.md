@@ -669,14 +669,86 @@ Type the following **exactly**:
 
 **Purpose**
 
-- Learn to read HTML calmly
-- Understand semantic elements
-- Recognize patterns instead of memorizing tags
+- Learn how to read HTML calmly and safely
+- Understand HTML as structure and meaning, not “programming”
+- Build confidence by recognizing familiar patterns
 
 **Outcome**
 
-- You can explain what each section of your HTML does
-- You can change text without breaking the page
+By the end of this step, you will be able to:
+
+- Look at an HTML file without feeling overwhelmed
+- Identify the main sections of a basic HTML document
+- Explain, at a high level, what each part is responsible for
+
+No new files will be created in this step.  
+We will work only with the file you already made.
+
+---
+
+### A Reassuring Reminder
+
+You are not here to memorize HTML.
+
+You are here to **recognize patterns**.
+
+HTML is designed to be:
+- Predictable
+- Repetitive
+- Readable by humans
+
+If something looks unfamiliar, that does not mean you are behind.
+
+---
+
+### HTML Is Built from Elements
+
+HTML is made up of **elements**.
+
+Most elements follow a simple pattern:
+
+```html
+<tagname>content</tagname>
+
+## Step 4 — Reading HTML as Structure, Not Code (Practical)
+
+**Purpose**
+
+- Practice reading HTML without fear
+- Make small, safe text changes
+- Confirm that structure stays intact when content changes
+
+**Outcome**
+
+By the end of this step, you will be able to:
+
+- Change text in an HTML file confidently
+- Recognize which parts of the file you are changing
+- Trust that small changes are safe and reversible
+
+We will not add new elements.
+We will not reorganize the file.
+We will work only with what already exists.
+
+---
+
+### Opening Your Existing File
+
+Open `index.html` in Visual Studio Code.
+
+You should see something similar to this:
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Page</title>
+  </head>
+  <body>
+    <h1>This is my first HTML page</h1>
+  </body>
+</html>
+
 
 ---
 
