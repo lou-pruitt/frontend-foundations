@@ -1,3 +1,5 @@
+This project uses AI tools under explicit guardrails to protect beginner safety and learning pace. See AI_PROTOCOLS.md for details.
+
 # Frontend Foundations
 
 Frontend Foundations is a **beginner-first, sequential workbook** for learning
